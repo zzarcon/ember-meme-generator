@@ -1,0 +1,32 @@
+<p>
+  {{#if loadingTypes}}
+    Loading meme types... 
+  {{else}}
+    Meme type: {{select-2 content=memeTypes value=memeType optionValuePath="text" class="meme-types"}}
+  {{/if}}
+  {{#if loadingFonts}}
+    Loading fonts...
+  {{else}}
+    Font: {{select-2 content=fonts value=font optionValuePath="text"}}
+  {{/if}}
+</p>
+<p>
+  Font size: {{input value=fontSize type="number"}}
+  Top text: {{input value=topText}}
+  Bottom text: {{input value=bottomText}}
+</p>
+<p class="meme-img">
+  {{#if generatingImg}}
+    {{partial "loader"}}
+  {{/if}}
+  <img id="meme-preview" {{bind-attr src="memeSrc"}}>
+</p>
+<p>
+  <a id="download-img" class="btn btn-2" {{bind-attr download="memeType"}}>
+    Download meme!
+    <span class="download-box">
+      <span class="entypo-down"></span>
+      <span class="box"></span>
+    </span>
+  </a>
+</p>

@@ -1,0 +1,59 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+div {
+  margin-bottom: 60px;
+}
+.btn {
+  padding: 12px 20px;
+  border-radius: 2px;
+  font-size: 22px;
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: background 100ms ease;
+  
+  &.btn-2 {
+    color: SkyBlue;
+    border: 2px solid;
+    &:hover {
+      color: #444;
+    }
+  }
+  &:hover {
+    .entypo-down {
+       bottom: -4px;
+    }
+  }
+}
+
+.download-box {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  margin-left: 10px;
+  .box {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 30px;
+    height: 10px;
+    border: 3px solid; 
+    border-top: none;
+  }
+  .entypo-down {
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+    transition: all 200ms 0 ease;
+  }
+}
