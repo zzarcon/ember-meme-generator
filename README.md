@@ -1,11 +1,22 @@
-# Meme-generator - http://king-meme-generator.herokuapp.com/
+# Ember Meme generator
 
 [CHECK THE DEMO](http://king-meme-generator.herokuapp.com/)
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+# Screenshots
+![](https://raw.github.com/zzarcon/ember-meme-generator/master/showcase/overview.png)
+![](https://raw.github.com/zzarcon/ember-meme-generator/master/showcase/search.png)
+![](https://raw.github.com/zzarcon/ember-meme-generator/master/showcase/loading.png)
 
-## Prerequisites
+# Features
+  
+  * Live changes preview
+  * Select meme type **more than 900**
+  * Select font family **more than 80**
+  * Select font size
+  * Select top and bottom text
+  * Download your meme as image
+  
+#### Prerequisites
 
 You will need the following things properly installed on your computer.
 
@@ -15,41 +26,24 @@ You will need the following things properly installed on your computer.
 * [Ember CLI](http://www.ember-cli.com/)
 * [PhantomJS](http://phantomjs.org/)
 
-## Installation
+#### Installation
 
-* `git clone <repository-url>` this repository
+* `git clone https://github.com/zzarcon/ember-meme-generator.git` this repository
 * change into the new directory
 * `npm install`
 * `bower install`
 
-## Running / Development
+#### Running / Development
 
 * `ember server`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
+#### Running Tests
 
 * `ember test`
 * `ember test --server`
 
-### Building
+#### Building
 
 * `ember build` (development)
 * `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://www.ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
