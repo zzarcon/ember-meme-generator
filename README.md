@@ -1,6 +1,6 @@
 # Ember Meme generator
 
-[CHECK THE DEMO](http://king-meme-generator.herokuapp.com/)
+[CHECK THE DEMO](http://www.merememe.com)
 
 # Screenshots
 ![](https://raw.github.com/zzarcon/ember-meme-generator/master/showcase/overview.png)
